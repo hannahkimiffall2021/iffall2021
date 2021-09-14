@@ -1,0 +1,32 @@
+h1 {
+    color:cornflowerblue;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color:gray;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    color:gray;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 5%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-color: cornflowerblue;
+    border-style: dotted;
+}
+html {
+    background-color:lightgoldenrodyellow;
+}
