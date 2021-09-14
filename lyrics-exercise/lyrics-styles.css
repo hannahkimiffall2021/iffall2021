@@ -1,0 +1,37 @@
+h1 {
+    color:snow;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    border-style: solid;
+    border-color: snow;
+    border-width: 5px;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+    color: snow;
+}
+html {
+    background-color:slategrey;
+}
+p {
+    text-align: center;
+    font-style: normal;
+    font-family: serif;
+    color: snow;
+    font-size: 20px;
+}
+div {
+    border-style: groove;
+    border-color: snow;
+    border-width: 5px;
+}
+body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
