@@ -1,0 +1,101 @@
+html {
+    background-color: floralwhite;
+    font-family: 'Crimson Text', serif;
+}
+
+h1 {
+    color: crimson;
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}
+
+h3 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 18pt;
+    text-indent: 50pt;
+}
+
+h4 {
+   text-indent: 70pt; 
+   color: gray
+}
+
+p {
+    text-indent: 100pt;
+    font-size: 26px;
+}
+
+.styledFont {
+    font-family: 'Crimson Text', serif;
+}
+
+section.FontWeight p.Normal {
+    font-weight: normal;
+}
+
+section.FontWeight p.Bold {
+    font-weight: bold;
+}
+
+section.FontStyle p.Normal {
+    font-style: normal;
+}
+
+section.FontStyle p.Italic {
+    font-style: italic;
+}
+
+section.LetterSpacing p.Normal {
+    letter-spacing: normal;
+}
+
+section.LetterSpacing p.Wide {
+    letter-spacing: .0em;
+}
+
+section.LetterSpacing p.Narrow {
+    letter-spacing: -.02em;
+}
+
+section.TextDecoration p.None {
+    text-decoration: none;
+}
+
+section.TextDecoration p.Underline {
+    text-decoration: underline;
+}
+
+section.TextDecoration p.LineThrough {
+    text-decoration: line-through;
+}
+
+section.TextDecoration p.Overline {
+    text-decoration: overline;
+}
+
+section.TextTransform p.None {
+    text-transform: none;
+}
+
+section.TextTransform p.Uppercase {
+    text-transform: uppercase;
+}
+
+section.TextTransform p.Lowercase {
+    text-transform: lowercase;
+}
+
+section.TextTransform p.Capitalize {
+    text-transform: capitalize;
+}
