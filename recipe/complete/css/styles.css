@@ -24,7 +24,7 @@ html {
 
 .header h1 {
     float: left;
-    font-size: 100pt;
+    font-size: 70pt;
     margin-top: 65px;
     padding-left: 65px;
 }
@@ -92,7 +92,7 @@ h2 {
 
 .ending img {
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 55px;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
