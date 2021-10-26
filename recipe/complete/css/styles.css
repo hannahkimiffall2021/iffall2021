@@ -5,6 +5,15 @@ html {
   
 }
 
+@media (min-width: 640px) {
+    html{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 75%;
+    }
+    .column {width: 100%}
+}
+
 .header {
     overflow: hidden;
     border-style: double;
@@ -12,14 +21,6 @@ html {
     border-color:palegoldenrod;
     border-radius: 10px;
     background-color: olive;
-}
-
-@media (max-width: 500px) {
-    html{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .column {width: 100%}
 }
 
 .header h1 {
