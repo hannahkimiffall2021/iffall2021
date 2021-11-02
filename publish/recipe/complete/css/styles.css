@@ -1,0 +1,112 @@
+html {
+    font-family: 'Jost', sans-serif;
+    background-color: darkolivegreen;
+    color:white;
+  
+}
+
+@media (min-width: 640px) {
+    html{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 75%;
+    }
+    .column {width: 100%}
+}
+
+.header {
+    overflow: hidden;
+    border-style: double;
+    border-width: 5px;
+    border-color:palegoldenrod;
+    border-radius: 10px;
+    background-color: olive;
+}
+
+.header h1 {
+    float: left;
+    font-size: 70pt;
+    margin-top: 65px;
+    padding-left: 65px;
+}
+
+.head-image1 {
+    float: left;
+    width: 19%;
+    height: 19%;
+}
+
+.head-image2 {
+    float: right;
+    width: 19%;
+    height: 19%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    margin-top: 50px;
+}
+
+.column {
+    flex: 50%;
+    block-size: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-style: double;
+    border-width: 5px;
+    border-color:palegoldenrod;
+    border-radius: 10px;
+    background-color: olive;
+}
+
+.column1 {
+    display: inline-block;
+    font-size: 15pt;
+    margin-top: 20px;
+}
+
+.instructions h3 {
+    font-size: 18pt;
+}
+
+.instructions {
+    font-size: 13pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.instructions img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ending img {
+    display: inline-block;
+    margin-left: 55px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 15%;
+    height: 15%;
+}
+
+footer {
+    border-style: double;
+    border-width: 5px;
+    border-color:palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15pt;
+    background-color: olive;
+}
