@@ -1,0 +1,441 @@
+body {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+#cocacola {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 17px 40px 0 40px;
+    background-color: red;
+    border: 2px solid red;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive; 
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#cocacola:hover {
+    background-color: black;
+    border: 5px solid rgb(153, 13, 36);
+    color: white;
+}
+
+#apple {
+    display: block;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 30px;
+    background-color: #8d8d8d;
+    color: #fff;
+    text-align: center;
+    text-decoration:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    transition: all .2s;
+}
+
+#apple:hover {
+    background-color: #61e773;
+    width: 100px;
+    height: 100px;
+}
+
+#ibm {
+    text-decoration: none;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;    
+    font-size: 30px;
+    color:  #00233b;
+    padding-top: 55px;
+    transition: all .2s;
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    border:3px solid  #00233b;
+}
+
+#ibm:hover {
+    color:white;
+    font-style: italic;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+#nerf {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 40px 0 40px;
+    color: rgb(255, 81, 0);
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#nerf:hover {
+    transform: rotateY(360deg) scale(1.7);
+}
+
+#harleydavidson {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: black;
+    color: rgba(255, 153, 0, 0.932);
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#harleydavidson:hover {
+    color: #fff;
+    transform: rotateX(360deg)
+}
+
+#michaelkors {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:50px;
+    transition: all .8s;
+}
+
+#michaelkors:hover {
+    transform: rotateZ(180deg) scale(1.5);
+}
+
+#ideo {
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 40px 40px 40px 40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+background: #f5f6f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#ideo:hover {
+    background: #fff;
+    color: gray;
+}
+
+#sardella {
+    display: inline-block;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 40px 0 40px;
+    color: rgb(20, 41, 49);
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#sardella:hover {
+    text-shadow: 0 6px 8px #fffb00;
+    color: rgb(130, 182, 231);
+}
+
+#craigslist {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:500px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px 20px 0px 5px;
+    width:200px;
+    height:100px;
+    border: 3px solid rgb(46, 22, 133);
+    color:rgb(46, 22, 133);
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke:1px rgb(46, 22, 133);
+    text-align: center;
+}
+
+#craigslist:hover {
+    font-family:monospace;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px 40px 0 10px;
+    color: rgb(255, 106, 181);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: rgb(201, 52, 214);
+    border: 2px solid rgb(201, 52, 214);
+    color: #fff;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#lyft:hover {
+    color:black;
+    background-color: rgb(208, 255, 0);
+    letter-spacing: .4em;
+}
+
+#samsung {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+#samsung:hover {
+    color: black;
+    transition: 200ms;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+#dimecitycycles {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 60px 40px 0 40px;
+    border-radius: 60px;
+    background-color: rgb(156, 40, 11);
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#dimecitycycles:hover {
+    transform: rotate(1080deg) scale(1.6);
+    transition: 400ms;
+}
+
+#cartoonnetwork{
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:50px;
+    transition: all .8s;
+}
+
+#cartoonnetwork:hover {
+    transform: rotateX(720deg);
+    transition: 300ms;
+}
+
+#bissingers {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    top: 35%;
+    transition: all .5s;
+    color: rgb(155, 54, 79);
+    text-transform: uppercase;
+}
+
+#bissingers:hover {
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(187, 86, 128);
+}
+
+#tonightshow {
+    position: relative;
+    top: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#tonightshow:hover {
+    font-style: italic;
+    color: rgb(17, 19, 136);
+    text-shadow: 5px 5px 5px #ecea41;
+}
+
+#nike {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:90px;
+    transition: all .8s;
+}
+
+#nike:hover {
+    transform: rotateY(720deg);
+    transition: 300ms;
+}
+
+#botanicalgarden {
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-size: 15pt;
+    padding-top: 100px;
+    color: indigo;
+    transition: color .5s;
+}
+
+#botanicalgarden:hover {
+    color: lightblue;
+}
+
+#hulkhogan {
+    position: relative;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 30px;
+    top: 100px;
+    color: rgb(38, 129, 20);
+    transition: all .5s;
+}
+
+#hulkhogan:hover {
+    color: purple;
+    background: rgb(38, 129, 20);
+    border-radius: 60%;
+    padding: 20px
+}
+
+#tesla {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:50px;
+    transition: all .8s;
+}
+
+#tesla:hover {
+    transform: rotateY(720deg);
+    transform: rotateX(360deg);
+    transition: 20ms;
+}
+
+#colorrun {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 17px 40px 0 40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcecfc+0,fba6e1+50,fd89d7+51,ff7cd8+100;Pink+Gloss+%232 */
+background: #fcecfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); /* IE6-9 */
+    border: 2px solid gray;
+    color: #fff;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .8s;
+}
+
+#colorrun:hover {
+    background-color: white;
+    border: 5px solid rgb(155, 221, 146);
+    color: white;
+    transform: rotateY(360deg);
+}
